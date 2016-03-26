@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NeerajPortfolio</string>
+    <string name="title">My portfolio apps</string>
+    <string name="btnSpotify">Spotify Streamer</string>
+    <string name="btnScores">Scores App</string>
+    <string name="btnLibrary">Library App</string>
+    <string name="btnBuildIt">Build It Bigger</string>
+    <string name="btnBacon">Bacon Reader</string>
+    <string name="btnCapstone">Capstone: My own App</string>
+</resources>

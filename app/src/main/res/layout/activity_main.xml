@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/textColor"
+            android:text="@string/title" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnSpotify"
+            android:onClick="ButtonClick"
+            />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnScores"
+            android:onClick="ButtonClick"
+            />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnLibrary"
+            android:onClick="ButtonClick"
+            />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnBuildIt"
+            android:onClick="ButtonClick"
+            />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnBacon"
+            android:onClick="ButtonClick"
+            />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/btnCapstone"
+            android:onClick="ButtonClick"
+            android:background="@drawable/special_button_feedback"
+            />
+    </LinearLayout>
+</ScrollView>
