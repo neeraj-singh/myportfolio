@@ -5,7 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="buttonBackGround">#F08C35</color>
     <color name="buttonBackGroundClicked">#F07C35</color>
-    <color name="buttonSpecialBackGroundClicked">#FF0945</color>
+    <color name="buttonSpecialBackGroundClicked">#FF2945</color>
     <color name="buttonSpecialBackGround">#FF0045</color>
     <color name="textColor">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="background">#ffdfeaf1</color>
 </resources>

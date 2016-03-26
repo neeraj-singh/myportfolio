@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ButtonClick(View view){
-        Toast.makeText(MainActivity.this,((Button)view).getText().toString(),Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this,((Button)view).getText().toString(),Toast.LENGTH_SHORT).show();
     }
 }
